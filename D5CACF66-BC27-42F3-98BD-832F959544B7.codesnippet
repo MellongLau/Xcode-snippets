@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>$Model Init</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (id)initWithDBData:(FMResultSet *)data
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
++ (id)modelWithDBData:(FMResultSet *)data
+{
+    return [[&lt;#ModelClassName#&gt; alloc] initWithDBData:data];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D5CACF66-BC27-42F3-98BD-832F959544B7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Model Init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
